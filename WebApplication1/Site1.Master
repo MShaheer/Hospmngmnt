@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication1.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="C:\Users\Dell\Documents\Visual Studio 2012\Projects\WebApplication1\WebApplication1\mainstyle.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="heading">HOSPITAL MANAGEMENT SYSTEM</div>
+<%--    <div id="frontdesk">FRONTDESK</div>  --%>  
+    <div id="navbar" class="navbar">
+         <div id="linkdiv">
+              <asp:HyperLink CLASS="links" ID="HyperLink1" runat="server" NavigateUrl="~/WebForm1.aspx">HOME</asp:HyperLink>
+        &nbsp;<asp:HyperLink CLASS="links" ID="HyperLink2" runat="server" NavigateUrl="#">DEPARTMENTS</asp:HyperLink>
+        &nbsp;<asp:HyperLink CLASS="links" ID="HyperLink3" runat="server" NavigateUrl="#">DOCTORS</asp:HyperLink>
+        &nbsp;<asp:HyperLink CLASS="links" ID="HyperLink4" runat="server" NavigateUrl="#">PATIENTS</asp:HyperLink>
+        &nbsp;<asp:HyperLink CLASS="links" ID="HyperLink5" runat="server" NavigateUrl="#">APPOINTMENTS</asp:HyperLink>
+             </div>
+        </div>
+        
+        
+        <div>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

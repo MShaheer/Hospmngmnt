@@ -1,0 +1,74 @@
+﻿body {
+    background-image:url('bkg-blu.jpg');
+    height: 368px;
+    width: 900px;
+}
+
+#heading {
+    margin:0 auto;
+    position:absolute;
+    width:93%;
+    /*background-color:black;*/
+    color:black;
+    font-size:25px;
+    text-align:center;
+    font-family:'Century Gothic';
+    z-index:59976;
+    font-weight:bolder;
+    top: 17px;
+    left: 17px;
+}
+
+.navbar {
+    margin:0 auto;
+    
+    position:absolute;
+    top: 52px;
+    
+    color:darkslategray;
+    
+    font-size:15px;
+    font-family:'Century Gothic';
+    width: 42%;
+    height: 37px;
+    left: 357px;
+}
+
+
+#frontdesk {
+
+
+   vertical-align:text-bottom;
+    
+position:absolute;
+text-align:left;
+width: 250px;
+height:27px;
+border-bottom-right-radius:50px;
+background-color:black;
+z-index:-5;
+top:35px;
+    margin-left:0;
+    color:white;
+}
+#linkdiv{
+    position:absolute;
+    left:1%;
+    top: 16px;
+    width: 387px;
+    text-align: left;
+    height: 19px;
+    font-size: small;
+}
+.links{
+     text-decoration:none;
+     color :darkslategrey;
+     
+     }
+.links:hover{
+     text-decoration:none;
+     color :darkslategrey;
+     border-bottom:solid 2px black;
+     
+     }
+
